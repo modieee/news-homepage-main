@@ -242,7 +242,7 @@ img {
     }    
 }
 
-@media (min-width: 980px){
+@media (min-width: 1040px){
     .header {
         margin-top: 2.5em;
     }
