@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | News homepage</title>
+  
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header class="header container">
+    <a href="/">
+      <img src="/assets/images/logo.svg" alt="Homepage" width="50px" height="50px" class="logo">
+    </a>
+    
+    <img class="mobile-open-icon" id="openNav" src="/assets/images/icon-menu.svg">
+
+    <nav class="nav" id="displayNav">
+      <img class="mobile-close-icon" id="closeNav" src="/assets/images/icon-menu-close.svg" width="30px">
+
+      <ul class="nav__menu">
+        <li class="menu__item">
+          <a href="#" class="item__link">Home</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="item__link">New</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="item__link">Popular</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="item__link">Trending</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="item__link">Categories</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <article class="container main">
+    <main class="grid-container">
+      <section class="feature">
+        <picture class="picture">
+          <source
+            media="(min-width: 576px)"
+            srcset="/assets/images/image-web-3-desktop.jpg">
+  
+            <img src="/assets/images/image-web-3-mobile.jpg" alt="colorful stacks of blocks">
+        </picture>
+
+        <div class="headline-description">
+          <h1 class="feature__headline">The Bright Future of Web 3.0?</h1>
+
+          <div class="description-button">
+
+            <p class="feature__description">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+            But is it really fulfilling its promise?</p>
+            <a class="feature__button" href="#">Read more</a>
+          </div>
+        </div>
+
+    
+      </section>
+
+      <section class="new">
+        <h2 class="new__headline">New</h2>
+    
+        <div class="new_post">
+          <article class="new__post">
+            <h3 class="new__subhead">
+              <a href="">Hydrogen VS Electric Cars</a>
+            </h3>
+            <p class="new__description">Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </article>
+          
+          <article class="new__post">
+            <h3 class="new__subhead">
+              <a href="">The Downsides of AI Artistry</a>
+            </h3>
+            <p class="new__description">What are the possible adverse effects of on-demand AI image generation?</p>
+          </article>
+          
+          <article class="new__post">
+            <h3 class="new__subhead">
+              <a href="">Is VC Funding Drying Up?</a>
+            </h3>
+            <p class="new__description">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+  </article>
+
+
+  <section class="container blog">
+    <article class="blog__item flex-container">
+      <a href="">
+        <img src="/assets/images/image-retro-pcs.jpg" alt="Retro dektop computer">
+      </a>
+
+      <div class="blog__detail">
+        <div class="blog__number">01</div>
+        <h3 class="blog__headline">
+          <a href="">Reviving Retro PCs</a>
+        </h3>
+        <p class="blog__description">What happens when old PCs are given modern upgrades?</p>
+      </div>
+
+    </article>
+
+    <article class="blog__item flex-container">
+      <a href="">
+        <img src="/assets/images/image-top-laptops.jpg" alt="glowing keyboard">
+      </a>
+
+      <div class="blog__detail">
+        <div class="blog__number">02</div>
+        <h3 class="blog__headline">
+          <a href="">Top 10 Laptops of 2022</a>
+        </h3>
+        <p class="blog__description">Our best picks for various needs and budgets.</p>
+      </div>
+
+    </article>
+
+    <article class="blog__item flex-container">
+      <a href="">
+        <img src="/assets/images/image-gaming-growth.jpg" alt="">
+      </a>
+
+      <div class="blog__detail">
+        <div class="blog__number">03</div>
+        <h3 class="blog__headline">
+          <a href="">The Growth of Gaming</a>
+        </h3>
+        <p class="blog__description">How the pandemic has sparked fresh opportunities.</p>
+      </div>
+
+    </article>
+  </section>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="htttps://github.com/modieee">modieee</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
