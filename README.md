@@ -31,7 +31,7 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop View](./screenshot/Frontend%20Mentor%20-%20News%20homepage%20-%20127.0.0.1.png.jpg)
-![Mobile View](./screenshot/Frontend%20Mentor%20-%20News%20homepage%20-%20mobile.png.jpg)
+![Mobile View](./screenshot/Frontend%20Mentor%20-%20News%20homepage%20-%20mobile.png)
 
 ### Links
 
